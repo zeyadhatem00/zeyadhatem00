@@ -1,6 +1,6 @@
-<div align="center">
-  <img src="./banner_glitch.gif" alt="Glitch Banner" width="100%" />
-</div>
+<p align="center">
+  <img src="./banner_glitch.gif" width="900" alt="Banner">
+</p>
 
 # 👋 Hi, I'm Zeyad Hatem
 
