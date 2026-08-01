@@ -1,4 +1,6 @@
-<img src="banner_glitch.gif"/>
+<div style = "width : 100% ; hieght : auto; " >
+<img src="banner_glitch.gif" width : 100% hieght : 100% />
+</div>
 
 # 💫 About Me:
 I am a React.js Frontend Developer | Turning complex ideas into clean UIs | AI student blending code + intelligence
