@@ -1,3 +1,5 @@
+
+<img src="https://user-images.githubusercontent.com/74038190/225813708-98b745f2-7d22-48cf-9150-083f1b00d6c9.gif"/>
 # 👋 Hi, I'm Zeyad Hatem
 
 ### 🚀 React.js Frontend Developer | AI Student
@@ -13,10 +15,6 @@ I enjoy building modern web applications with React, creating smooth UI/UX, and 
 - 💻 Frontend Developer specializing in **React.js**
 - 🎨 Passionate about modern UI/UX
 - ⚡ Love animations and clean interfaces
-- 🤖 AI Student exploring Machine Learning & Deep Learning
-- 🌱 Currently learning **TypeScript** and advanced React patterns
-
-
 
 ## 🌐 Socials:
 [![Facebook](https://img.shields.io/badge/Facebook-%231877F2.svg?logo=Facebook&logoColor=white)](https://facebook.com/https://www.facebook.com/zeyad.hatem.415721/) [![Instagram](https://img.shields.io/badge/Instagram-%23E4405F.svg?logo=Instagram&logoColor=white)](https://instagram.com/https://www.instagram.com/zeyad_hatem15/) [![LinkedIn](https://img.shields.io/badge/LinkedIn-%230077B5.svg?logo=linkedin&logoColor=white)](https://linkedin.com/in/https://www.linkedin.com/in/zeyad-hatem-569302390/) [![email](https://img.shields.io/badge/Email-D14836?logo=gmail&logoColor=white)](mailto:zeyadhatem0079@gmail.com) 
