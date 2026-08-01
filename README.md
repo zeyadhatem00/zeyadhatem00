@@ -1,4 +1,4 @@
-<img src="banner.png.png"/>
+<img src="glitch_banner.html"/>
 
 # 💫 About Me:
 I am a React.js Frontend Developer | Turning complex ideas into clean UIs | AI student blending code + intelligence
