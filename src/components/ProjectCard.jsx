@@ -1,4 +1,4 @@
-import { ExternalLink, GitFork, Star, Code2 } from 'lucide-react';
+import { ExternalLink, GitFork, Star, Code as Code2 } from 'lucide-react';
 
 export default function ProjectCard({ repo }) {
   const tags = [...new Set([repo.language, ...(repo.topics || [])].filter(Boolean))].slice(0, 4);
