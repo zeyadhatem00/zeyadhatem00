@@ -29,20 +29,16 @@ function Portfolio() {
   }, []);
 
   useEffect(() => {
-    const master = gsap.timeline({ defaults: { ease: 'power3.out' } });
-    master.from('.nav-inner > *', { y: -20, opacity: 0, stagger: 0.1, duration: 0.6 }).from('.hero-kicker', { y: 20, opacity: 0, duration: 0.6 }, '-=0.2').from('.hero-name .char', { y: 40, opacity: 0, stagger: 0.04, duration: 0.6 }, '-=0.1').from('.hero-role', { opacity: 0, duration: 0.5 }, '+=0.1').from('.hero-tagline', { y: 20, opacity: 0, duration: 0.6 }).from('.hero-cta > *', { y: 20, opacity: 0, stagger: 0.12, duration: 0.5 }, '-=0.2');
-    return () => master.kill();
-  }, []);
-
-  useEffect(() => {
     const nameEl = document.querySelector('.hero-name');
     if (nameEl && !nameEl.querySelector('.char')) {
       const text = nameEl.textContent;
       nameEl.innerHTML = text.split('').map((c) => c === ' ' ? '<span class="char space">&nbsp;</span>' : `<span class="char">${c}</span>`).join('');
     }
-    const glitch = gsap.timeline({ repeat: -1, repeatDelay: 3 });
-    glitch.to('.hero-name', { x: 4, duration: 0.05 }).to('.hero-name', { x: -4, duration: 0.05 }).to('.hero-name', { x: 0, duration: 0.05 });
-    return () => glitch.kill();
+    const master = gsap.timeline({ defaults: { ease: 'power3.out' } });
+    master.from('.nav-inner > *', { y: -20, opacity: 0, stagger: 0.1, duration: 0.6 }).from('.hero-kicker', { y: 20, opacity: 0, duration: 0.6 }, '-=0.2').from('.hero-name .char', { y: 40, opacity: 0, stagger: 0.04, duration: 0.6 }, '-=0.1').from('.hero-role', { opacity: 0, duration: 0.5 }, '+=0.1').from('.hero-tagline', { y: 20, opacity: 0, duration: 0.6 }).from('.hero-cta > *', { y: 20, opacity: 0, stagger: 0.12, duration: 0.5 }, '-=0.2').from('.scroll-indicator', { opacity: 0, duration: 0.5 });
+    const glitch = gsap.timeline({ repeat: -1, repeatDelay: 4 });
+    glitch.to('.hero-name', { x: 3, duration: 0.05 }).to('.hero-name', { x: -3, duration: 0.05 }).to('.hero-name', { x: 0, duration: 0.05 });
+    return () => { master.kill(); glitch.kill(); };
   }, []);
 
   useEffect(() => {

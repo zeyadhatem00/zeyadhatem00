@@ -33,14 +33,16 @@ h1, h2, h3 { font-family: 'Space Grotesk', sans-serif; margin: 0; letter-spacing
 html.light .cursor-glow { mix-blend-mode: multiply; opacity: 0.25; }
 
 /* Navbar */
-.navbar { position: fixed; top: 0; left: 0; right: 0; z-index: 100; backdrop-filter: blur(12px); background: color-mix(in srgb, var(--bg) 70%, transparent); border-bottom: 1px solid var(--border); }
+.navbar { position: fixed; top: 0; left: 0; right: 0; z-index: 100; backdrop-filter: blur(12px); background: color-mix(in srgb, var(--bg) 70%, transparent); border-bottom: 1px solid transparent; transition: border-color 0.3s, background 0.3s; }
+.navbar.scrolled { border-bottom-color: var(--border); background: color-mix(in srgb, var(--bg) 88%, transparent); }
 .nav-inner { max-width: 1280px; margin: 0 auto; padding: 16px 24px; display: flex; align-items: center; justify-content: space-between; gap: 24px; }
 .logo { display: flex; flex-direction: column; align-items: flex-start; gap: 2px; }
 .logo span { font-family: 'Space Grotesk'; font-weight: 700; font-size: 20px; color: var(--primary); text-shadow: var(--glow); }
 .logo small { font-size: 9px; letter-spacing: 0.2em; color: var(--muted); }
 .nav-links { display: flex; gap: 28px; }
 .nav-links button { display: flex; align-items: center; gap: 6px; font-size: 14px; color: var(--text); opacity: 0.7; transition: opacity 0.2s, color 0.2s; }
-.nav-links button:hover { opacity: 1; color: var(--primary); }
+.nav-links button:hover, .nav-links button.active { opacity: 1; color: var(--primary); }
+.nav-links button.active em { color: var(--primary); }
 .nav-links em { font-style: normal; font-size: 10px; color: var(--muted); }
 .nav-tools { display: flex; align-items: center; gap: 12px; }
 .theme-toggle, .menu-toggle { width: 38px; height: 38px; display: grid; place-items: center; border: 1px solid var(--border); border-radius: 10px; color: var(--text); transition: all 0.3s; }
@@ -63,7 +65,9 @@ html.light .cursor-glow { mix-blend-mode: multiply; opacity: 0.25; }
 .hero-name::before { color: var(--primary); transform: translate(-2px, 0); mix-blend-mode: screen; opacity: 0.5; clip-path: inset(0 0 60% 0); }
 .hero-name::after { color: var(--tertiary); transform: translate(2px, 0); mix-blend-mode: screen; opacity: 0.5; clip-path: inset(60% 0 0 0); }
 html.light .hero-name::before, html.light .hero-name::after { opacity: 0.25; }
-.hero-role { font-family: 'IBM Plex Mono'; font-size: clamp(16px, 2.4vw, 22px); color: var(--primary); min-height: 1.5em; }
+.hero-role { font-family: 'IBM Plex Mono'; font-size: clamp(16px, 2.4vw, 22px); color: var(--primary); min-height: 1.5em; position: relative; }
+.hero-role::after { content: '|'; margin-left: 2px; animation: blink 1s steps(2) infinite; color: var(--secondary); }
+@keyframes blink { 50% { opacity: 0; } }
 .hero-tagline { max-width: 560px; color: var(--muted); font-size: 16px; line-height: 1.6; }
 .hero-cta { display: flex; gap: 16px; flex-wrap: wrap; justify-content: center; margin-top: 8px; }
 .btn-primary, .hero-cta button, .hero-cta a, .resume-buttons .btn-primary, .resume-buttons .btn-ghost, .contact-form button[type="submit"] { display: inline-flex; align-items: center; gap: 8px; padding: 14px 26px; border-radius: 12px; font-size: 14px; font-weight: 500; border: 1px solid var(--primary); color: var(--bg); background: var(--primary); transition: all 0.3s; }
