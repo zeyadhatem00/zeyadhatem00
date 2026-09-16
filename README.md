@@ -12,7 +12,7 @@ I enjoy building modern web applications with React, creating smooth UI/UX, and 
 
 ## 💫 About Me
 
-- 💻 Frontend Developer specializing in **React.js/Next.js**
+- 💻 Frontend Developer specializing in **React.js | Next.js**
 - 🎨 Passionate about modern UI/UX
 - ⚡ Love animations and clean interfaces
 
