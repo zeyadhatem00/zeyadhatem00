@@ -2,7 +2,7 @@
 
 ### 👋 Hi, I'm Zeyad Hatem
 
-### 🚀 React.js Frontend Developer | AI Student
+### 🚀 React.js | Next.js Frontend Developer | AI Student
 
 Turning complex ideas into clean, responsive, and interactive user experiences.
 
