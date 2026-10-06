@@ -1,30 +1,57 @@
-<img src="https://user-images.githubusercontent.com/74038190/225813708-98b745f2-7d22-48cf-9150-083f1b00d6c9.gif"/>
+# Zeyad Hatem Atteya
 
-### 👋 Hi, I'm Zeyad Hatem
+Front-end developer and AI student building responsive, accessible, and interactive web experiences with React.
 
-### 🚀 React.js | Next.js Frontend Developer | AI Student
+I enjoy turning complex ideas into clear interfaces, adding deliberate motion, and learning how intelligent behaviour can improve the products I design.
 
-Turning complex ideas into clean, responsive, and interactive user experiences.
+## Connect
 
-I enjoy building modern web applications with React, creating smooth UI/UX, and continuously learning AI to combine intelligent systems with great frontend experiences.
+- [GitHub](https://github.com/zeyadhatem00)
+- [LinkedIn](https://www.linkedin.com/in/zeyad-hatem-569302390/)
+- [Instagram](https://www.instagram.com/zeyad_hatem15/)
+- [Email](mailto:zeyadhatem0079@gmail.com)
 
----
+## Selected work
 
-## 💫 About Me
+A few public projects from my portfolio:
 
-- 💻 Frontend Developer specializing in **React.js | Next.js**
-- 🎨 Passionate about modern UI/UX
-- ⚡ Love animations and clean interfaces
+| Project | Repository | Live demo |
+| --- | --- | --- |
+| Adasa | [zeyadhatem00/Adasa-](https://github.com/zeyadhatem00/adasa) | [Open demo](https://adasa-beta-amber.vercel.app) |
+| Brace-up | [zeyadhatem00/Brace-up](https://github.com/zeyadhatem00/brace-up) | [Open demo](https://brace-up.vercel.app) |
+| Vibely | [zeyadhatem00/Vibely-social-media-platform](https://github.com/zeyadhatem00/Vibely-social-media-platform) | [Open demo](https://vibely-navy.vercel.app) |
+| Cartiva | [zeyadhatem00/Cartiva](https://github.com/zeyadhatem00/cartiva) | — |
 
-## 🌐 Socials:
-[![Facebook](https://img.shields.io/badge/Facebook-%231877F2.svg?logo=Facebook&logoColor=white)](https://facebook.com/https://www.facebook.com/zeyad.hatem.415721/) [![Instagram](https://img.shields.io/badge/Instagram-%23E4405F.svg?logo=Instagram&logoColor=white)](https://instagram.com/https://www.instagram.com/zeyad_hatem15/) [![LinkedIn](https://img.shields.io/badge/LinkedIn-%230077B5.svg?logo=linkedin&logoColor=white)](https://linkedin.com/in/https://www.linkedin.com/in/zeyad-hatem-569302390/) [![email](https://img.shields.io/badge/Email-D14836?logo=gmail&logoColor=white)](mailto:zeyadhatem0079@gmail.com) 
+The repository links above point to public projects from this account. The three demo links returned successfully when this README was prepared; availability can change independently of the source repositories.
 
-# 💻 Tech Stack:
-![CSS3](https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white) ![HTML5](https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white) ![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E) ![TypeScript](https://img.shields.io/badge/typescript-%23007ACC.svg?style=for-the-badge&logo=typescript&logoColor=white) ![Vercel](https://img.shields.io/badge/vercel-%23000000.svg?style=for-the-badge&logo=vercel&logoColor=white) ![Bootstrap](https://img.shields.io/badge/bootstrap-%238511FA.svg?style=for-the-badge&logo=bootstrap&logoColor=white) ![React Router](https://img.shields.io/badge/React_Router-CA4245?style=for-the-badge&logo=react-router&logoColor=white) ![TailwindCSS](https://img.shields.io/badge/tailwindcss-%2338B2AC.svg?style=for-the-badge&logo=tailwind-css&logoColor=white) ![React](https://img.shields.io/badge/react-%2320232a.svg?style=for-the-badge&logo=react&logoColor=%2361DAFB) ![NPM](https://img.shields.io/badge/NPM-%23CB3837.svg?style=for-the-badge&logo=npm&logoColor=white) ![React Hook Form](https://img.shields.io/badge/React%20Hook%20Form-%23EC5990.svg?style=for-the-badge&logo=reacthookform&logoColor=white) ![Context-API](https://img.shields.io/badge/Context--Api-000000?style=for-the-badge&logo=react) ![Next JS](https://img.shields.io/badge/Next-black?style=for-the-badge&logo=next.js&logoColor=white)
+## What I build
 
-# 📊 GitHub Stats:
-![](https://github-readme-stats.shion.dev/api?username=zeyadhatem00&theme=gotham&hide_border=false&include_all_commits=false&count_private=false)<br/>
-![](https://streak-stats.demolab.com/?user=zeyadhatem00&theme=gotham&hide_border=false)<br/>
-![](https://github-readme-stats.shion.dev/api/top-langs/?username=zeyadhatem00&theme=gotham&hide_border=false&include_all_commits=false&count_private=false&layout=compact)
+- React interfaces with responsive layouts and component-driven structure
+- UI/UX with accessible interactions, visual hierarchy, and purposeful animation
+- Front-end experiences using JavaScript, TypeScript, Tailwind CSS, and Vite
+- Interactive portfolio and product surfaces with live public GitHub repository data
 
-<!-- Proudly created with GPRM ( https://gprm.itsvg.in ) -->
+## This profile site
+
+This repository contains the source for my personal portfolio site. It includes:
+
+- About, skills, selected-work, experience, resume, and contact sections
+- GitHub profile and repository loading through the public GitHub REST API
+- Repository filtering by detected language
+- GSAP and Lenis motion, smooth scrolling, responsive navigation, and a light/dark theme toggle
+- An embedded viewer and download link for my [CV](./public/Zeyad_Hatem_Atteya_CV.pdf)
+
+### Stack used here
+
+- React and JSX, bundled with Vite
+- Tailwind CSS through PostCSS
+- GSAP, Lenis, Lucide React, and React Icons
+- React PDF for the CV preview
+
+### Runtime notes
+
+- `VITE_GITHUB_USERNAME` can override the GitHub account queried by the site; without it, the code uses `zeyadhatem00`.
+- The site requests the GitHub profile, public repositories, and profile README at runtime, so network access and GitHub API availability affect the Projects and About sections.
+- The contact form validates fields in the browser and displays a temporary success state. It does not submit to a backend or send email.
+
+The default branch for this repository is `main`.
